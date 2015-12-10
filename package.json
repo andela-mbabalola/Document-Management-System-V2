@@ -1,0 +1,21 @@
+{
+  "name": "dmsmongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node  --captureExceptions --forceexit --verbose --growl spec/documentManagerSpec.js"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "dmsm": "bin/dmsMongo.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.0",
+    "commander": "^2.9.0",
+    "jasmine-node": "^1.14.5",
+    "mongoose": "^4.2.7"
+  }
+}
